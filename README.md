@@ -3,14 +3,14 @@ This code is based on Caffe [1]. It is the C++ implementation of our method MCNe
 It is a Microsoft Visual Studio 2013 solution "MCNet.sln". 
 
 You need to change the include path, library path, and additional dependencies of OpenCV according to your own installation path and version of OpenCV in "C/C++ -> General -> Additional Include Directories", "Linker -> General -> Additional Library Directories", and "Linker -> Input -> Additional Dependencies" of "Project -> Properties -> Configuration Properties" respectively.
-------------------------------------------------------
+
 
 Prerequisites:
 
 1. OpenCV, any version is applicable
 
 2. Microsoft Visual Studio 2013 or a later version 
-------------------------------------------------------
+
 
 Usuage:
 
@@ -22,7 +22,7 @@ Input:
 
 Output:
 - "res_file" is a file that contains the predicted facial landmark locations.
-------------------------------------------------------
+
 
 Format:
 
@@ -34,7 +34,7 @@ Each line contains left, right, top and bottom of the face bounding box correspo
 
 Format of the outputFile:
 Each line contains x coordinate and y coordinate of predicted 68 facial landmarks (x1 y1 x2 y2 ...).
-------------------------------------------------------
+
 
 Example:
 
@@ -49,7 +49,7 @@ You can also run the code in the Microsoft Visual Studio 2013. We have added the
 If you find our code useful in your research work, please cite our paper [2].
 
 Should you have any questions, just contact with us through email shaozhiwen@sjtu.edu.cn.
-------------------------------------------------------
+
 
 References:
 
