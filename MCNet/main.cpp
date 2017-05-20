@@ -54,9 +54,16 @@ int main(int argc, char **argv)
 	{
 		listfile.getline(path, str_length);
 
-		img = cv::imread(path, CV_LOAD_IMAGE_GRAYSCALE);
+		img = cv::imread(path, CV_LOAD_IMAGE_GRAYSCALE);		
 
 		facebbox_file >> left >> right >> top >> bottom;
+
+		if (img.empty())
+		{
+			std::cerr << "Fail to open " << path << "\n";
+			resfile << "\n";
+			continue;
+		}
 
 		start = cv::getTickCount();
 
@@ -71,14 +78,21 @@ int main(int argc, char **argv)
 				resfile << ptsMat.at<float>(i, j) << '\t';
 			}
 		}
-		resfile << std::endl;
+		resfile << "\n";
 
 		count++;
 
 	}
 
-	std::cout << "Processing " << count << " images, using " << total / count / cv::getTickFrequency() * 1000 << " ms averagely for each image.\n";
-
+	if (count > 0)
+	{
+		std::cout << "Processing " << count << " images, using " << total / count / cv::getTickFrequency() * 1000 << " ms averagely for each image.\n";
+	}
+	else
+	{
+		std::cout << "Processing " << count << " images.\n";
+	}
+	
 	listfile.close();
 	facebbox_file.close();
 	resfile.close();
