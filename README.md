@@ -55,6 +55,6 @@ References:
 
 [1] Yangqing Jia, Evan Shelhamer, Jeff Donahue, Sergey Karayev, Jonathan Long, Ross B Girshick, Sergio Guadarrama, and Trevor Darrell, "Caffe: Convolutional architecture for fast feature embedding.," in ACM Multimedia, 2014, vol. 2, p. 4.
 
-[2] Zhiwen Shao, Hengliang Zhu, Yangyang  Hao, Min  Wang, and Lizhuang Ma, “Learning a multi-center convolutional network for unconstrained face alignment,” in 2017 IEEE International Conference on Multimedia and Expo (ICME). IEEE, 2017.
+[2] Zhiwen Shao, Hengliang Zhu, Yangyang  Hao, Min  Wang, and Lizhuang Ma, “Learning a multi-center convolutional network for unconstrained face alignment,” in 2017 IEEE International Conference on Multimedia and Expo (ICME). IEEE, 2017, pp. 109–114.
 
 [3] Christos Sagonas, Georgios Tzimiropoulos, Stefanos Zafeiriou, and Maja Pantic, "300 faces in-the-wild challenge: The first facial landmark localization challenge," in Computer VisionWorkshops (ICCVW), 2013 IEEE International Conference on. IEEE, 2013, pp. 397–403.
