@@ -1,4 +1,4 @@
-This code is based on Caffe [1]. It is the C++ implementation of our method MCNet. It is worth mentioning that this implementation is an extended version of MCNet [2].
+This face alignment tool is based on Caffe [1]. It is the C++ implementation of our method MCNet. It is worth mentioning that this implementation is an extended version of MCNet [2].
 
 It is a Microsoft Visual Studio 2013 solution "MCNet.sln". 
 
