@@ -1,4 +1,4 @@
-This face alignment tool is based on Caffe [1]. It is the C++ implementation of our method MCNet. It is worth mentioning that this implementation is an extended version of MCNet [2].
+This face alignment tool is based on Caffe [1]. It is the C++ implementation of an extended version of our method MCNet.
 
 It is a Microsoft Visual Studio 2013 solution "MCNet.sln". 
 
@@ -40,13 +40,13 @@ Example:
 
 MCNet IBUG_path.txt IBUG_face_bbox.txt IBUG_land.txt
 
-You need to put the ibug [3] images into the folder "x64/Release/image/ibug/".
+You need to put the ibug [2] images into the folder "x64/Release/image/ibug/".
 
 In the folder "x64/Release", you can run the file "run_MCNet.bat".
 
 You can also run the code in the Microsoft Visual Studio 2013. We have added the command arguments to "Project -> Properties -> Configuration Properties -> Debugging -> Command Arguments".
 
-If you find our code useful in your research work, please cite our paper [2].
+If you find our code useful in your research work, please cite our paper.
 
 Should you have any questions, just contact with us through email shaozhiwen@sjtu.edu.cn.
 
@@ -55,6 +55,4 @@ References:
 
 [1] Yangqing Jia, Evan Shelhamer, Jeff Donahue, Sergey Karayev, Jonathan Long, Ross B Girshick, Sergio Guadarrama, and Trevor Darrell, "Caffe: Convolutional architecture for fast feature embedding.," in ACM International Conference on Multimedia. ACM, 2014, pp. 675–678.
 
-[2] Zhiwen Shao, Hengliang Zhu, Yangyang  Hao, Min  Wang, and Lizhuang Ma, “Learning a multi-center convolutional network for unconstrained face alignment,” in IEEE International Conference on Multimedia and Expo. IEEE, 2017, pp. 109–114.
-
-[3] Christos Sagonas, Georgios Tzimiropoulos, Stefanos Zafeiriou, and Maja Pantic, "300 faces in-the-wild challenge: The first facial landmark localization challenge," in IEEE International Conference on Computer VisionWorkshops. IEEE, 2013, pp. 397–403.
+[2] Christos Sagonas, Georgios Tzimiropoulos, Stefanos Zafeiriou, and Maja Pantic, "300 faces in-the-wild challenge: The first facial landmark localization challenge," in IEEE International Conference on Computer VisionWorkshops. IEEE, 2013, pp. 397–403.
