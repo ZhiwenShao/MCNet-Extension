@@ -1,4 +1,4 @@
-This face alignment tool is based on Caffe [1]. It is the C++ implementation of an extended version of our method MCNet.
+This face alignment tool is based on Caffe [1]. It is the C++ implementation of our method MCNet.
 
 It is a Microsoft Visual Studio 2013 solution "MCNet.sln". 
 
@@ -46,21 +46,14 @@ In the folder "x64/Release", you can run the file "run_MCNet.bat".
 
 You can also run the code in the Microsoft Visual Studio 2013. We have added the command arguments to "Project -> Properties -> Configuration Properties -> Debugging -> Command Arguments".
 
-If you find our code useful in your research work, please cite our papers.
+If you find our code useful in your research work, please cite our paper.
 ```
-@inproceedings{shao2017learning,
-  title={Learning a multi-center convolutional network for unconstrained face alignment},
-  author={Shao, Zhiwen and Zhu, Hengliang and Hao, Yangyang and Wang, Min and Ma, Lizhuang},
-  booktitle={IEEE International Conference on Multimedia and Expo},
-  pages={109--114},
-  year={2017},
-  organization={IEEE}
-}
-@article{shao2018deep,
+@article{shao2018deepmulti,
   title={Deep Multi-Center Learning for Face Alignment},
   author={Shao, Zhiwen and Zhu, Hengliang and Tan, Xin and Hao, Yangyang and Ma, Lizhuang},
-  journal={arXiv preprint arXiv:1808.01558},
-  year={2018}
+  journal={Neurocomputing},
+  year={2018},
+  publisher={Elsevier}
 }
 ```
 Should you have any questions, just contact with us through email shaozhiwen@sjtu.edu.cn.
