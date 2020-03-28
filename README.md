@@ -1,4 +1,4 @@
-This face alignment tool is based on Caffe [1]. It is the C++ implementation of our method MCNet. The testing code of the earlier version can be found [here](https://github.com/ZhiwenShao/MCNet). 
+This face alignment tool is based on Caffe [1]. It is the C++ implementation of our method MCNet. The testing code of the conference version of MCNet can be found [here](https://github.com/ZhiwenShao/MCNet). 
 
 It is a Microsoft Visual Studio 2013 solution "MCNet.sln". 
 
